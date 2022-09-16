@@ -1,0 +1,110 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-violet: hsl(270, 3%, 87%);
+  --dark-grayish-violet: hsl(279, 6%, 55%);
+  --very-dark-violet: hsl(278, 68%, 11%);
+}
+
+body{
+  background-image: url("images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.container{
+  margin-top: 100px;;
+}
+
+.card{
+  width: 70%;
+}
+
+.cardInformation{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  bottom:30px;
+  min-width: 366px;
+
+}
+
+#cNumber{
+  word-spacing: 50px;
+  letter-spacing: 2px;
+
+}
+
+#cardName{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+.date{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.frontName{
+  display: inline-block;
+}
+
+#cvc{
+  font-family: 'Space Grotesk', sans-serif;
+  position: absolute;
+  bottom: 110px;
+  right: 65px;
+}
+
+.front{
+  margin:30px;
+}
+
+.back{
+  float:right;
+}
+
+.customerInformation{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  color: var(--very-dark-violet);
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  margin: auto;
+  width: 45%;
+}
+
+.btn{
+  background-color: var(--very-dark-violet);
+  color: var(--white);
+  margin-top: 30px;
+}
+
+.thankYou{
+  display:none;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  right: 285px;
+  top: 180px;
+  text-align: center;
+}
+
+.invalid{
+  color: red;
+  text-transform: capitalize;
+
+}
+
+.valid{
+  color: #1ad71a;
+}
+
+.invalidText{
+  color:lightgrey;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-style: italic;
+}
